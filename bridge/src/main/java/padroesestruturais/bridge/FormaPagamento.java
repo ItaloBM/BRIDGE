@@ -1,4 +1,5 @@
 package padroesestruturais.bridge;
 
-public class FormaPagamento {
+public interface FormaPagamento {
+    String processar(double valor);
 }
